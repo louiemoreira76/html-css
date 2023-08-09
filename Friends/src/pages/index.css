@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+  
+   
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #030328;
+    justify-content: space-between;
+
+}
+
+header{
+   display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100vw;
+    height: 53px;
+    background-color: #0000004D !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+}
+
+.botoes > a{
+    margin: 5px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: GBold;
+    font-size: 13px;
+    letter-spacing: 3px;
+    position: relative;
+  right: 20px;
+}
+
+.botoes > button{
+    font-size: 12px;
+    border-radius: 20px;
+    width: 170px;
+    height: 35px;
+    font-family:GBold;
+    letter-spacing: 3px;
+    background-color: #B535F6;
+    color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    overflow: hidden;
+    transition: all 0.5s ease 0s !important;
+    position: relative;
+  right: 20px;
+}
+
+header > img{
+    width: 160px;
+    height: 270px;
+}
+
+header > a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: GBold;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+   
+}
+
+
+
+
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    justify-content: space-between;
+    align-items: center;   
+                     
+}
+
+.aaa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+   
+}
+
+.aaa > h1{
+    font-family: GRegular;
+    font-size: 50px;
+    margin:;
+}
+
+.aaa > img{
+    width: 1150px;
+
+}
+
+.faixa{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/images/faixaroxa.jpg');
+    background-color: #030328;
+}
+
+.faixa > h2{
+    font-family:fantasy;
+}
+
+.text{
+    background-color: #030328;
+
+}
+
+
+#selecao{
+    background-color: #030328;
+}
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #030328;
+    width: 100px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#l1{
+    display: flex;
+    flex-direction: ;
+}
+
+#l2{
+    display: flex;
+    flex-direction: ;
+}
+
+#l3{
+    display: flex;
+    flex-direction: ;
+}
+#l4{
+    display: flex;
+    flex-direction: ;
+}
+#l5{
+    display: flex;
+    flex-direction: ;
+}
+#l6{
+    display: flex;
+    flex-direction: ;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    background-color: #030328;
+}
+
+article > h2{
+
+}
+
+article > div{
+
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #030328;
+}
+
+footer > button{
+
+}
+
+footer > a{
+
+}
+
+footer > p{
+
+}
+
